@@ -1,0 +1,7 @@
+version: '3'
+
+services:
+  gryadka:
+    build: ./lib
+  ovoshebaza:
+    image: mongo
